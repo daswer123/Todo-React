@@ -28,7 +28,7 @@
 [![Delete-category](https://imgur.com/Y6IFMBD.jpg)]()
 ### Изменение имени категории
 [![Change-category-name](https://imgur.com/jr0W2fQ.jpg)]()
-### Выбор цвета категории при создании 
+### Выбор цвета категории при создании, а так же случайный цвет по умолчанию
 [![Choose-category-color](https://imgur.com/Oj6uLh0.jpg)]()
 ### Отображение задач и категорий через базу данных на Firebase
 
