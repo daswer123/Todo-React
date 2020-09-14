@@ -1,0 +1,103 @@
+
+.complited-button{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4DD599;
+    background-color: inherit;
+    border-radius: 50%;
+}
+
+.complited{
+    position: relative;
+    background: #4DD599;
+}
+
+.complited::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    top:8px;
+    left: 1px;
+
+    transform: rotate(45deg);
+
+    background-color: white;
+}
+
+.complited::after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 3px;
+    top:6px;
+    right: 1px;
+
+    transform: rotate(-45deg);
+
+    background-color: white;
+}
+
+.task-item{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 675px;
+    display: flex;
+}
+
+.task-item label{
+    display: flex;
+    min-height: 0px;
+    margin-right: 30px;
+
+}
+
+.task-item-delete{
+    display: none;
+    margin-left: auto;
+    position: relative;
+    border: 0;
+    background-color:inherit;
+    font-size: 0;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+
+    width: 15px;
+    height: 15px;
+
+    margin-right: 10px;
+}
+
+.task-item-delete::after,
+.task-item-delete::before{
+    content : "";
+    position: absolute;
+
+    width: 15px;
+    height: 2px;
+
+    background-color: black;
+    transform: rotate(45deg);
+
+    top:5px;
+    left : -1px;
+}
+
+.task-item-delete::before{
+    transform: rotate(-45deg);
+}
+
+.complited-button {
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.show{
+    display: block;
+}
+
+.task-item:hover .task-item-delete{
+    display:block;
+}

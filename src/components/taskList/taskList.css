@@ -1,0 +1,68 @@
+@keyframes fromRight {
+    0% {transform: translateX(2000px);}
+    25% {transform: translateX(20px);}
+    50% {transform: translateX(0px);}
+    75% {transform: translateX(-20px);}
+    100% {transform: translateX(0);}
+}
+
+.task-list{
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.category-edit{
+    display: inline-block;
+    background-color: inherit;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    width: 15px;
+    height: 15px;
+
+    
+
+    margin-top: 15px;
+    margin-left : 15px;
+}
+
+.tasks-header{
+    display: flex;
+    border-bottom: 1px solid #F2F2F2;
+
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+
+.change-category{
+    position: relative;
+
+}
+
+.change-category input{
+    outline: none;
+    position: relative;
+
+
+    margin:0;
+    border: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+
+    padding-bottom: 20px;
+}
+
+.change-category button{
+    border:0;
+    background-color: inherit;
+    padding-top: 5px;
+
+    animation-name: fromRight;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+}

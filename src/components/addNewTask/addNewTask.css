@@ -1,0 +1,118 @@
+@keyframes appiar{
+    0%{ opacity: 0.1;}
+    30% { opacity: 0.6}
+    60% { opacity: 0.8;}
+    100%{opacity: 1;}
+}
+
+.add-form{
+    animation: appiar 0.7s;
+}
+
+.add-form-input{
+    width: 450px;
+    background-color: white;
+    border : 1px solid #efefef;
+    border-radius: 4px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+
+    margin-bottom: 20px;
+}
+
+.add-form-add{
+    padding: 8px 5px;
+    width: 145px;
+    border: 0;
+    background: #4DD599;
+    border-radius: 4px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+    margin-right: 15px;
+} 
+
+.add-form-add:hover,
+.add-form-add:focus,
+.add-form-add:active{
+    background: #1aca7e;
+}
+
+.add-new-category-btn:hover,
+.add-new-category-btn:focus,
+.add-new-category-btn:active{
+    background: #1aca7e;
+}
+
+.add-form-cancel{
+    padding: 8px 5px;
+    width: 90px;
+    border: 0;
+    background: #F4F6F8;
+    border-radius: 4px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #9C9C9C;
+    cursor: pointer;
+
+    margin-right: 15px;
+}
+
+.add-form-cancel:hover,
+.add-form-cancel:active,
+.add-form-cancel:focus{
+    background: #ced0d3;
+    color:#413f3f
+}
+
+.before-add-form{
+    padding-left: 20px ;
+}
+
+.add-new-post-before{
+    position: relative;
+    display: block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+
+    padding-right: 5px;
+
+    color: #B4B4B4;
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.add-new-post-before::before,
+.add-new-post-before::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+
+    left:-15px;
+    top: 10px;
+
+    background-color: #B4B4B4;
+}
+
+.add-new-post-before::after{
+    transform: rotate(90deg);
+}
