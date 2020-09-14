@@ -86,3 +86,18 @@
 
     color: #C9D1D3;
 }
+
+
+.copyright{
+    margin-top: 200px;
+}
+
+.copyright-link{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright-link:hover{
+    color:green;
+}
+
